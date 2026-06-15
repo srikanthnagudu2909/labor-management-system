@@ -44,7 +44,7 @@ export default function App() {
           <Route path="/add-labor"element={<ProtectedRoute title="Add Labor"><AddLabor /></ProtectedRoute>} />
           <Route path="/labors/edit/:id" element={<ProtectedRoute title="Edit Labor"><AddLabor /></ProtectedRoute>} />
           <Route path="/attendance" element={<ProtectedRoute title="Attendance"><Attendance /></ProtectedRoute>} />
-          <Route path="/calendar"   element={<ProtectedRoute title="Calendar"><CalendarPage /></ProtectedRoute>} />
+          {/* <Route path="/calendar"   element={<ProtectedRoute title="Calendar"><CalendarPage /></ProtectedRoute>} /> */}
           <Route path="/advances"   element={<ProtectedRoute title="Advances"><Advances /></ProtectedRoute>} />
           <Route path="/payments"   element={<ProtectedRoute title="Payments"><Payments /></ProtectedRoute>} />
           <Route path="/salary"     element={<ProtectedRoute title="Salary"><Salary /></ProtectedRoute>} />

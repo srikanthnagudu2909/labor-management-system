@@ -77,7 +77,7 @@ export default function SettingsPage() {
           </div>
         </div>
 
-        <div className="card card-body">
+        {/* <div className="card card-body">
           <div style={{ fontWeight: 600, marginBottom: 10 }}>About</div>
           <div style={{ fontSize: 12.5, color: 'var(--text-muted)', lineHeight: 1.8 }}>
             <div><strong>App:</strong> Contractor – Labor Management System</div>
@@ -85,7 +85,7 @@ export default function SettingsPage() {
             <div><strong>Stack:</strong> MongoDB + Express + React + Node.js (MERN)</div>
             <div><strong>Logged in as:</strong> {user?.name} ({user?.email})</div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   )

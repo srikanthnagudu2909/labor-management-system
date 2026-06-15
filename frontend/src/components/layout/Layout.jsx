@@ -11,7 +11,7 @@ const navItems = [
   { to: '/labors',     label: 'Labors',       icon: Users },
   { to: '/add-labor',  label: 'Add Labor',    icon: UserPlus },
   { to: '/attendance', label: 'Attendance',   icon: CalendarCheck },
-  { to: '/calendar',   label: 'Calendar',     icon: Calendar },
+  // { to: '/calendar',   label: 'Calendar',     icon: Calendar },
   { to: '/advances',   label: 'Advances',     icon: Banknote },
   { to: '/salary',     label: 'Salary',       icon: IndianRupee },
   { to: '/payments',   label: 'Payments',     icon: CreditCard },
